@@ -3,8 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   // Put your real password in this string:
-  const uri = "mongodb+srv://support_db_user:BVZpWvrJm9YB8xwd@cluster0.ub5rgjb.mongodb.net/alvara?appName=Cluster0";
-
+ const uri = process.env.MONGODB_URI as string;
   try {
     const client = new MongoClient(uri);
     await client.connect();

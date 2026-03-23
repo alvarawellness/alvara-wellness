@@ -2,8 +2,7 @@ import { MongoClient } from 'mongodb';
 import { NextResponse } from 'next/server';
 export async function POST(request: Request) {
   // Your actual connection string here:
-  const uri = "mongodb+srv://support_db_user:BVZpWvrJm9YB8xwd@cluster0.ub5rgjb.mongodb.net/alvara?appName=Cluster0";
-
+const uri = process.env.MONGODB_URI as string;
   // ADD THIS LINE:
   console.log("THE SERVER IS USING THIS LINK FOR ORDERS: ", uri);
   try {
