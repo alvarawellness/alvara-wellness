@@ -88,7 +88,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-center text-green-900 tracking-wide">
           Alvara Wellness
         </h1>
-        <p className="text-center text-xs text-gray-500 mt-1">Nature's Touch for Modern Living</p>
+    <p className="text-center text-xs text-gray-500 mt-1">Nature&apos;s Touch for Modern Living</p>
       </header>
 
       <div className="p-4 space-y-4 max-w-md mx-auto">
