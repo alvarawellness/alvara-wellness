@@ -1,0 +1,35 @@
+[
+  {
+    "product_id": "ALV-001",
+    "name": "Alvara Magic Mix",
+    "category": "Nutrition",
+    "description": "A daily health mix crafted from nature's finest ingredients to support sustained energy.",
+    "price_inr": 850,
+    "inStock": true
+  },
+  {
+    "product_id": "ALV-002",
+    "name": "Self-Heating Steam Eye Masks",
+    "category": "Restoration",
+    "description": "Unwind after a long day of screen time. Gentle, self-heating masks release soothing steam.",
+    "price_inr": 450,
+    "inStock": true
+  },
+  {
+    "product_id": "ALV-003",
+    "name": "Smokeless Herbal Moxa Patches",
+    "category": "Targeted Relief",
+    "description": "Traditional herbal warmth without the smoke. Apply these discrete patches to soothe localized tension.",
+    "price_inr": 600,
+    "inStock": true
+  }
+,
+  {
+    "product_id": "ALV-004",
+    "name": "Cow Ghee",
+    "category": "Targeted Relief",
+    "description": "Traditional Uthukuli Ghee.",
+    "price_inr": 600,
+    "inStock": true
+  }
+]
